@@ -2,7 +2,6 @@ package ru.tama.botgetaccessinprivategroup;
 
 import ru.tama.botgetaccessinprivategroup.util.FileWrapper;
 
-import java.io.File;
 
 /**
  * Class {@link BuildVars} contains all constant variable for Bot.
@@ -14,7 +13,7 @@ public class BuildVars {
     public static final String LINK_TO_DB = "jdbc:mysql://localhost:3306/bot?useUnicode=true&characterEncoding=UTF-8";
     public static final String DRIVER_DB = "com.mysql.cj.jdbc.Driver";
     public static final String USERNAME_DB = "root";
-    public static final String PASSWORD_DB = "111297";
+    public static final String PASSWORD_DB = "root";
     public static final long ADMIN_ID = 391017801;
 
     private static String urlPrivateGroup = "";
