@@ -10,13 +10,13 @@ public class CommandFactory {
 
     public static AbstractCommand getCommand(String command, boolean isAdmin) {
         if (isAdmin) {
-            if (command.equals("yes") && isAdmin) {
+            if (command.equals("yes")) {
                 return new AdminYesCommand();
             }
-            if (command.equals("no") && isAdmin) {
+            if (command.equals("no")) {
                 return new AdminNoCommand();
             }
-            if (command.equals("group") && isAdmin) {
+            if (command.equals("group")) {
                 return new AdminSetGroupCommand();
             }
 
